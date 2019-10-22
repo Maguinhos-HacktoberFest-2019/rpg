@@ -47,7 +47,7 @@ def runGame(player):
         phaseId = rand(0, len(g_phases))
         phaseResult = play(phaseId)
         
-        if player.settings.hardcore && not phaseResult:
+        if player.settings.hardcore and not phaseResult:
             print("Você perdeu! Inicie o jogo novamente.")
             break
         #
