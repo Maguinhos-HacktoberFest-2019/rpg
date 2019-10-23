@@ -1,6 +1,7 @@
-from phases.start import start 
+from phases.start import start
+from phases.dilema import dilema
 
-phases = [start]
+phases = [start, dilema]
 
 def main():
     pass
