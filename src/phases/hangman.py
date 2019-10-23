@@ -3,8 +3,8 @@ import time
 import random
 
 enigmas = [["cadeado","Não ladra, não morde, mas também não deixa entrar.\nQuem é?\n\n"],
-           ["tesoura", "O que tem duas pernas, dois aneis e um prendendor no meio?"],
-           ["cebola", "Ela veste cem casacos por cima.\nQuem a despir, lágrimas derramará...\nQuem é ela?"],
+           ["tesoura", "O que tem duas pernas, dois aneis e um prendendor no meio?\n"],
+           ["cebola", "Ela veste cem casacos por cima.\nQuem a despir, lágrimas derramará...\nQuem é ela?\n"],
            ["nenhuma","Em uma bétula nasceram 90 maças.\nBateu um vento forte e 10 maçãs caíram.\nQuantas sobraram?\n"]]
 
 #Introdução
@@ -64,4 +64,3 @@ def hangman():
                 print ("")           
                 print ("HAHAHAHA! Você PERDEU!")
                 return False
-hangman()

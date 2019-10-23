@@ -1,5 +1,6 @@
 from random import randint
-from phases.start import start 
+from phases.start import start
+from phases.hangman import hangman
 
 g_phases = [start]
 
