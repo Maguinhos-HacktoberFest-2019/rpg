@@ -2,7 +2,7 @@
 import time
 import random
 
-enigmas = [["cadeado","Não ladra, não morde, mas também não deixa entrar.\nQuem é?\n\n"],
+enigmas = [["cadeado","Não ladra, não morde, mas também não deixa entrar.\nQuem é?\n"],
            ["tesoura","O que tem duas pernas, dois aneis e um prendendor no meio?\n"],
            ["cebola","Ela veste cem casacos por cima.\nQuem a despir, lágrimas derramará...\nQuem é ela?\n"],
            ["nenhuma","Em uma bétula nasceram 90 maças.\nBateu um vento forte e 10 maçãs caíram.\nQuantas sobraram?\n"],
@@ -28,22 +28,22 @@ def hangman():
     time.sleep(6)
     print ("")
 
-    print ("- HAHAHAHAHA! Exclama uma voz medonha escondida nas sombras.")
+    print ("- HAHAHAHAHAHAHAHAHA! Exclama uma voz medonha escondida nas sombras.")
     time.sleep(6)
     print ("")
 
-    print ("- Resolva meu enigma, aventureiro, e poderá sair livre daqui... Falhe e morrerá! HAHAHAHAHAHA")
+    print ("- Resolva meu enigma, aventureiro, e poderá sair livre daqui... Falhe e morrerá! HAHAHAHAHAHA!")
     time.sleep(6)
     print ("")
 
-    print ("- Preste muito atenção, aventureiro...\nSó direi uma vez... HAHAHAHAHAHA")
-    time.sleep(5)
+    print ("- Preste muita atenção, aventureiro...\nSó direi uma vez... HAHAHAHAHAHA!")
+    time.sleep(6)
     print ("")
 
     indice = random.randint(0, len(enigmas)-1)
 
     print (enigmas[indice][1])
-    time.sleep(10)
+    time.sleep(8)
 
     #Resposta
     resposta = enigmas[indice][0]
@@ -57,7 +57,7 @@ def hangman():
 
         if tentativa == resposta:
             print ("")       
-            print ("Certa resposta, aventureiro... HAHAHAHA\nVocê não é tão idiota como imaginei...")
+            print ("Certa resposta, aventureiro... HAHAHAHA!\nVocê não é tão idiota como imaginei...")
             time.sleep(6)
             return True
 
@@ -69,7 +69,7 @@ def hangman():
             if turnos > 0:
                 print ("Você tem apenas ", + turnos, " chance(s) restante(s), aventureiro...")
                 print ("")
-                time.sleep(2)
+                time.sleep(3)
 
             else:
                 print ("")           
