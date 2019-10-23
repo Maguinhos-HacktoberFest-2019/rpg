@@ -7,16 +7,15 @@ enigmas = [["cadeado","Não ladra, não morde, mas também não deixa entrar.\nQ
            ["cebola","Ela veste cem casacos por cima.\nQuem a despir, lágrimas derramará...\nQuem é ela?\n"],
            ["nenhuma","Em uma bétula nasceram 90 maças.\nBateu um vento forte e 10 maçãs caíram.\nQuantas sobraram?\n"],
            ["caldo","O que detestamos na praia e adoramos na panela?\n"],
-           ["baralho","O que é que se pões na mesa, parte, reparte mas não se comer?\n"],
+           ["baralho","O que é que se coloca-se na mesa, parte, reparte mas não se pode comer?\n"],
            ["futuro","O que é que nunca passa, e sempre está na frente?\n"],
            ["conselho","Todo mundo precisa,\nTodo mundo pede,\nTodo mundo dá,\nmas ninguém segue?\n"],
            ["passado","O que é que nunca volta, embora nunca tenha ido?\n"],
-           ["silêncio","Me diz se for capaz.\nQuem é aquele que num instante se quebra\nse alguém diz o nome dele?\n"],
+           ["silêncio","Me diz se for capaz.\nQuem é aquele que num instante se quebra se alguém diz o nome dele?\n"],
            ["escuridão","O que quanto mais cresce menos se vê?\n"],
            ["fim","Qual é a palavra que só tem três letras e acaba com tudo?\n"],
-           ["sombra","Subindo o sol Vai se encurtando descendo o sol vai se alongando??\n"],
-           ["buraco","O que mais se tira mas aumenta?\n"],
-           ]
+           ["sombra","Subindo o sol vai se encurtando descendo o sol vai se alongando??\n"],
+           ["buraco","O que quanto mais se tira mas aumenta?\n"]]
 
 #Introdução
 def hangman():
