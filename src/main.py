@@ -1,3 +1,4 @@
+from random import randint
 from phases.start import start 
 
 g_phases = [start]
@@ -16,18 +17,13 @@ class Settings():
     hardcore = False
     
     def __init__(self):
-        config()
+        self.config()
     #
     
     def config(self):
         #TODO: coletar configurações do usuário
         pass
     #
-#
-
-def rand(min, max):
-    #TODO: Implementar o random
-    return
 #
 
 def play(id):
@@ -44,7 +40,7 @@ def play(id):
 def runGame(player):    
     # Engine
     while len(g_phases) > 0:
-        phaseId = rand(0, len(g_phases))
+        phaseId = randint(0, len(g_phases)-1)
         phaseResult = play(phaseId)
         
         if player.settings.hardcore and not phaseResult:
