@@ -1,7 +1,8 @@
 from random import randint
 from phases.start import start 
+from phases.dilema import dilema
 
-g_phases = [start]
+g_phases = [start, dilema]
 
 class Player():
     name = "Youngling"
