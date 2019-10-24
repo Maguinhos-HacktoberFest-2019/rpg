@@ -5,7 +5,7 @@ from phases.hangman import hangman
 from phases.dilema import dilema
 from phases.velha import velha
 
-g_phases = [start, dilema, velha]
+g_phases = [start, dilema, velha, hangman]
 
 class Player():
     name = "Youngling"
