@@ -1,9 +1,4 @@
 def start():
-    r = input("Olá, vamos começar nossa aventura? =D  (S/N) \n")
-
-    if r.lower() == "s":
-        return True
-    #
-
-    return False
+    input("Vamos começar nossa aventura! =D  (Enter) \n")
+    return True
 #

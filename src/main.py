@@ -1,21 +1,10 @@
 from random import randint
-
 from phases.start import start
 from phases.hangman import hangman
 from phases.dilema import dilema
 from phases.velha import velha
 
 g_phases = [start, dilema, velha, hangman]
-
-class Player():
-    name = "Youngling"
-    isAlive = True
-    
-    def __init__(self, settings):
-        self.settings = settings
-        self.name = "Youngling" #TODO: Pegar nome pelo prompt
-    #
-#
 
 class Settings():
     hardcore = False
@@ -30,6 +19,16 @@ class Settings():
     #
 #
 
+class Player():
+    name = "Youngling"
+    isAlive = True
+    
+    def __init__(self, settings=Settings()):
+        self.settings = settings
+        self.name = input("Nos diga qual seu nome de jogador!\n")
+    #
+#
+
 def play(id):
     phase = g_phases[id]
     result = phase()
@@ -41,28 +40,35 @@ def play(id):
     return result
 #
 
-def runGame(player):    
+def runGame(player):
+    play(0)
+
     # Engine
     while len(g_phases) > 0:
         phaseId = randint(0, len(g_phases)-1)
         phaseResult = play(phaseId)
         
         if player.settings.hardcore and not phaseResult:
-            print("Você perdeu! Inicie o jogo novamente.")
+            print("Você perdeu =/")
             break
         #
         
         while not phaseResult:
-            print("Tente novamente!")
-            phaseResult = play(phaseId)
+            res = input("Você perdeu, quer tentar novamente? (s/n): ")
+            if res.lower() == "s":
+                phaseResult = play(phaseId)
+            else:
+                phaseResult = True
+            #
         #
     #
+
+    print("Game over...")
 #
 
 def main():
-    # TODO: Adicionar mensagem de boas vindas!
-    settings = Settings()
-    player = Player(settings)
+    print("Olá, player. Bem vindo ao Random RPG. Vamos começar?")
+    player = Player()
     runGame(player)
 #
 
