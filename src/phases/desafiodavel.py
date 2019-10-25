@@ -53,7 +53,7 @@ def desafio():
         resposta = resposta +i
 
 
-        if((resposta)=="4143"):
+        if((resposta)=="4144"):
             loop = 0
             print("Parabéns, você venceu!!")
             return True
