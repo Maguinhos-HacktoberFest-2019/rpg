@@ -3,8 +3,10 @@ from phases.start import start
 from phases.hangman import hangman
 from phases.dilema import dilema
 from phases.velha import velha
+from phases.labirinto import labirinto
+from phases.charada import charada
 
-g_phases = [start, dilema, velha, hangman]
+g_phases = [start, dilema, velha, hangman,labirinto,charada]
 
 class Settings():
     hardcore = False
