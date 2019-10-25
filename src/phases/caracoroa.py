@@ -6,10 +6,10 @@ from random import randint
 
 def caraCoroa():
 	
-	print("Parabéns, jovem campeão! Você chegou até aqui.")
-	time.sleep(3)
-	print("Após passar várias fases chegou a hora de testar sua sorte...")
-	time.sleep(4)
+	print("Olá, jovem gafanhoto!")
+	time.sleep(1)
+	print("Chegou a hora de testar sua sorte...")
+	time.sleep(2)
 	print("Agora nós vamos jogar Cara ou Coroa!")
 	time.sleep(2)
 	print("Você tem 10 chances... Preparado?")
