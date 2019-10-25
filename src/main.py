@@ -3,8 +3,9 @@ from phases.start import start
 from phases.hangman import hangman
 from phases.dilema import dilema
 from phases.velha import velha
+from phases.forca import forca
 
-g_phases = [start, dilema, velha, hangman]
+g_phases = [forca, start, dilema, velha, hangman]
 
 class Settings():
     hardcore = False

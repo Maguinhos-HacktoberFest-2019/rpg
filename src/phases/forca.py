@@ -6,8 +6,9 @@
 
 def forca():
 	print("JOGO DA FORCA!\n")
+	print("Autor: Andreângelo Patuzzo\n\n")
 	palavra = input("Digite a palavra secreta:").lower().strip()
-	for x in range(100):
+	for x in range(200):
 		 print()
 	digitadas = []
 	acertos = []
