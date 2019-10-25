@@ -3,19 +3,19 @@ from phases.start import start
 from phases.hangman import hangman
 from phases.dilema import dilema
 from phases.velha import velha
+from phases.aventura import aventura
+from phases.caracoroa import caraCoroa
+from phases.alexkid import alex_kid
 from phases.labirinto import labirinto
 from phases.charada import charada
 from phases.enigma_hex import enigma_hex
 from phases.portas import postas
 from phases.respiro import respiro
-<<<<<<< HEAD
 from phases.vocemorreu import morreu
-=======
 from phases.curiosity import curiosidade
 from phases.jogosequencia import jogosequencia
->>>>>>> 2b23735613458984dfda3c9c32342eb1d070336a
-
 g_phases = [start, dilema, velha, hangman, curiosidade, jogosequencia, postas, enigma_hex]
+
 
 class Settings():
     hardcore = False
