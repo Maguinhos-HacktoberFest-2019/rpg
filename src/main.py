@@ -4,8 +4,9 @@ from phases.hangman import hangman
 from phases.dilema import dilema
 from phases.velha import velha
 from phases.curiosity import curiosidade
+from phases.jogosequencia import jogosequencia
 
-g_phases = [start, dilema, velha, hangman, curiosidade]
+g_phases = [start, dilema, velha, hangman, curiosidade, jogosequencia]
 
 class Settings():
     hardcore = False
