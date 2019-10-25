@@ -3,11 +3,11 @@ from phases.start import start
 from phases.hangman import hangman
 from phases.dilema import dilema
 from phases.velha import velha
+from phases.enigma_hex import enigma_hex
 from phases.portas import postas
 from phases.curiosity import curiosidade
-from phases.jogosequencia import jogosequencia
 
-g_phases = [start, dilema, velha, hangman, curiosidade, jogosequencia, portas]
+g_phases = [start, dilema, velha, hangman, curiosidade, jogosequencia, portas, enigma_hex]
 
 class Settings():
     hardcore = False
