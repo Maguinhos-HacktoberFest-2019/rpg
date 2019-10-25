@@ -49,5 +49,3 @@ def fasegenius():
 	print("\nVocê sabe escrever  {} ?\nVocê tem 6 chances no total".format(xx))
 # fim introdução
 	return pure(respdo1)
-
-fasegenius()
