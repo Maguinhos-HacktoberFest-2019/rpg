@@ -4,9 +4,9 @@ from random import randint
 
 def parouimpar():
     pc = randint(0, 9)
-    escolha = int(input('Escolha ímpar(1) ou par(2)?')
+    escolha = int(input('Escolha ímpar(1) ou par(2)?'))
     print('PROCESSADO...')
-    jogador = int(input('Escolha um número:')
+    jogador = int(input('Escolha um número:'))
     print('Você escolheu o número {} e Eu o número {} !'.format(escolha, pc))
     if escolha == 2:
         if ((pc+jogador)%2 == 0):
