@@ -15,6 +15,7 @@ from phases.jogosequencia import jogosequencia
 
 g_phases = [start, dilema, velha, hangman, curiosidade, jogosequencia, postas, enigma_hex]
 
+
 class Settings():
     hardcore = False
 
