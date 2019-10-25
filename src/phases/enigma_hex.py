@@ -17,10 +17,10 @@ def startgame():
 72 61 E7 E3 6F 2E 20 45 20 \n33 30 25 20 64 65 20 32 35 20 \n25 2E 20 4F 75 20 33 30 25 2E \n2E 2E 5C 6E 64 \
 65 33 30 25 2E \n20 50 6F 72 74 61 6E 74 6F 2C \n20 6E 61 6F 20 65 20 33 30 25 \n2E')
 	
-	resp = input('\nDica: a resposta é um float\n\nEntao esta entre? ')
+	resp = input('\nDica: a resposta é um float\n\nEntao esta entre... ')
 	
 	while not resp.isnumeric():
-		resp = input('Disse que a resposta era um float meu consagrado ;)\nTente novamente: ')
+		resp = input('Disse que a resposta era *UM* float meu consagrado ;)\nTente novamente: ')
 	
 	verifica_resposta(1, float(resp))
 
