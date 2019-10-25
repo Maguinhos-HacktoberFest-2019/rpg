@@ -15,7 +15,7 @@ def charada():
             print("vocẽ errou, e tem apenas %d chances!"%(x-1))
             resposta = input("Qual sua resposta? ").lower()
     return resposta
-
+ 
 
 
 
