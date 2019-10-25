@@ -4,8 +4,15 @@ Olá. Este é um projeto criado para dar suporte ao Workshop de Git Iniciante pr
 
 ## Para os participantes
 
+## Instalação e Execução
+
+**IMPORTANTE**
+
+A construção do programa utilizou a versão 3 do [Python](https://www.python.org/), então recomendamos o uso dessa mesma versão para execução do arquivo main.py. Segue link da documentação da linguagem para as instalações da versão 3:
+- https://docs.python.org/3/using/index.html
+
 ### Rodando o jogo
-Com o Python 3 instalado, abra a raiz do projeto no terminal e execute o comando:
+Já com o Python 3 instalado, abra a raiz do projeto no terminal e execute o comando:
     
 - No Windows: `python src/main.py`    
 - No Linux: `python3 src/main.py`
