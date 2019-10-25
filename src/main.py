@@ -4,6 +4,7 @@ from phases.hangman import hangman
 from phases.dilema import dilema
 from phases.velha import velha
 from phases.portas import postas
+from phases.respiro import respiro
 <<<<<<< HEAD
 from phases.vocemorreu import morreu
 =======
