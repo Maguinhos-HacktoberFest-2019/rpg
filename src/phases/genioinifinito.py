@@ -1,5 +1,45 @@
 #autor: Felipe Becalli Trindade
-.
+
+def abacate(x):
+	j = input("\n**TABELA ASCII**\nBinário: 00100000: ")
+	y = " "
+	if x == 6:	
+		if j.lower() != y.lower():
+			print('\nVocê não é de pedra. Você ainda tem {} chances'.format(x-1))
+			abacate(5)
+		else:
+			return True
+	elif x == 5:
+		if j.lower() != y.lower():
+			print('\nVeja direito o código. Você ainda tem {} chances'.format(x-1))
+			abacate(4)
+		else:
+			return True
+	elif x == 4:
+		if j.lower() != y.lower():
+			print('\nCara, Como assim?. Você ainda tem {} chances'.format(x-1))
+			abacate(3)
+		else:
+			return True
+	if x == 3:	
+		if j.lower() != y.lower():
+			print('\nNão sabe seguir ordens? Você ainda tem {} chances'.format(x-1))
+			abacate(2)
+		else:
+			return True
+	elif x == 2:
+		if j.lower() != y.lower():
+			print('\nOlhe a tabela ASCII e traduza o Binário para ASCII... Você ainda tem {} chances'.format(x-1))
+			abacate(1)   
+		else:
+			return True
+	elif x == 1:
+		if j.lower() != y.lower():
+			print('\nVocê perdeu!')
+			return False
+		else:
+			print("Até que enfim, o GÊNIO NÃO QUER MAIS VOCÊ POR PERTO, ELE VAI SER CHATO COM OUTRO!")
+			return True
 
 def pure(x):
 	j ='Resposta'
@@ -24,23 +64,23 @@ def pure(x):
 							return False
 						else:
 							print("\nParábens você sabe escrever a resposta")
-							return True
+							abacate(1)
 					else:
 						print("\nParábens você sabe escrever a resposta")
-						return True
+						abacate(2)
 				else:
 					print("\nParábens você sabe escrever a resposta")
-					return True
+					abacate(3)
 			else:
 				print("\nParábens você sabe escrever a resposta")
-				return True
+				abacate(4)
 		else:
 			print("\nParábens você sabe escrever a resposta")
-			return True
+			abacate(5)
 	else:
 		print("\nParábens você sabe escrever a Resposta")
-		return True
-	return 0
+		abacate(6)
+
 def fasegenius():
 	respdo1='errada' #Resposta do 1 input
 #   INTRODUÇÃO DO GAME
@@ -49,3 +89,4 @@ def fasegenius():
 	print("\nVocê sabe escrever  {} ?\nVocê tem 6 chances no total".format(xx))
 # fim introdução
 	return pure(respdo1)
+fasegenius()
