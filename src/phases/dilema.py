@@ -1,4 +1,4 @@
-+# Funcao para validar as opcoes do jogador
+# Funcao para validar as opcoes do jogador
 def optionValidator(r):
     if(r != "A" and r != "B" and r != "C" and r != "D"):
         print("Opção invlálida, tente novamente !")

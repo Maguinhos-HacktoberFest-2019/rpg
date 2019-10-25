@@ -1,4 +1,4 @@
 def start():
-    input("Vamos começar nossa aventura! =D  (Enter) \n")
+    input("Vamos começar nossa aventura, campeão? ! =D  (Enter) \n")
     return True
 #
