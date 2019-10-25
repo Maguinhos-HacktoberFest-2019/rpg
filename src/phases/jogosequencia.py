@@ -88,5 +88,6 @@ Cada acerto somará 1 ponto, consegue atingir 10? ''')
 			limpa()
 			print("VENCEU")
 			return True	
+            print("igor é animal")
 	return 0
 
