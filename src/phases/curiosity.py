@@ -1,6 +1,6 @@
 # Autor: Brian Icaro
 def optionValidator(r):
-    if(r != "True" and r!= "False"):
+    if(r != "True" and r!= "False"): #this line needed to work with "True", instead of True
         print("Opção inválida, tente novamente!");
         r = input("Entre com alguma das opções válidas")
         return optionValidator(r)
