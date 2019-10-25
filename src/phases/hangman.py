@@ -7,7 +7,7 @@ enigmas = [["cadeado","Não ladra, não morde, mas também não deixa entrar.\nQ
            ["cebola","Ela veste cem casacos por cima.\nQuem a despir, lágrimas derramará...\nQuem é ela?\n"],
            ["nenhuma","Em uma bétula nasceram 90 maças.\nBateu um vento forte e 10 maçãs caíram.\nQuantas sobraram?\n"],
            ["caldo","O que detestamos na praia e adoramos na panela?\n"],
-           ["baralho","O que é que se coloca-se na mesa, parte, reparte mas não se pode comer?\n"],
+           ["baralho","O que é que coloca-se na mesa, parte, reparte mas não se pode comer?\n"],
            ["futuro","O que é que nunca passa, e sempre está na frente?\n"],
            ["conselho","Todo mundo precisa,\nTodo mundo pede,\nTodo mundo dá,\nmas ninguém segue?\n"],
            ["passado","O que é que nunca volta, embora nunca tenha ido?\n"],
@@ -20,29 +20,29 @@ enigmas = [["cadeado","Não ladra, não morde, mas também não deixa entrar.\nQ
 #Introdução
 def hangman():
     print ("Você chega em um local abandonado e escuro...\nDe longe consegue observar um vulto de uma pessoa suspensa no ar por um corda.")
-    time.sleep(6)
+    time.sleep(3)
     print ("")
 
     print ("Você corre em direção do indivíduo que clama por ajuda.\nDe repente...\nUm piso falso...\nVocê percebe ter caindo em uma armadilha.")
-    time.sleep(6)
+    time.sleep(3)
     print ("")
 
     print ("- HAHAHAHAHAHAHAHAHA! Exclama uma voz medonha escondida nas sombras.")
-    time.sleep(6)
+    time.sleep(3)
     print ("")
 
     print ("- Resolva meu enigma, aventureiro, e poderá sair livre daqui... Falhe e morrerá! HAHAHAHAHAHA!")
-    time.sleep(6)
+    time.sleep(3)
     print ("")
 
     print ("- Preste muita atenção, aventureiro...\nSó direi uma vez... HAHAHAHAHAHA!")
-    time.sleep(6)
+    time.sleep(3)
     print ("")
 
     indice = random.randint(0, len(enigmas)-1)
 
     print (enigmas[indice][1])
-    time.sleep(8)
+    time.sleep(4)
 
     #Resposta
     resposta = enigmas[indice][0]
