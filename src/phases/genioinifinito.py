@@ -1,4 +1,5 @@
 #autor: Felipe Becalli Trindade
+.
 
 def pure(x):
 	j ='Resposta'
