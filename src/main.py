@@ -12,7 +12,6 @@ from phases.respiro import respiro
 from phases.vocemorreu import morreu
 from phases.curiosity import curiosidade
 from phases.jogosequencia import jogosequencia
-
 g_phases = [start, dilema, velha, hangman, curiosidade, jogosequencia, postas, enigma_hex]
 
 
