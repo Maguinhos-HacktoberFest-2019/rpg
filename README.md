@@ -5,7 +5,7 @@ Olá. Este é um projeto criado para dar suporte ao Workshop de Git Iniciante pr
 ## Para os participantes
 
 ### Rodando o jogo
-Com o Python 3 instalado, abra a raiz do projeto no terminal e execute o comando:
+Já com o Python 3 instalado, abra a raiz do projeto no terminal e execute o comando:
     
 - No Windows: `python src/main.py`    
 - No Linux: `python3 src/main.py`
