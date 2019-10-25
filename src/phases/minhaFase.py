@@ -143,10 +143,10 @@ def minhaFase():
         return False
 
 
-def main():
+def intruso():
 
     minhaFase()
-main()
+
 
 
 
