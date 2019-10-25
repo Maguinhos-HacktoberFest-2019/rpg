@@ -10,5 +10,6 @@ def alex_kid():
     alex = int(input("Faça  sua escolha: "))
     print(f"BOSS ESCOLHEU: {lista[boss]}")
     print(f"ALEX ESCOLHEOU: {lista[alex]}")
+    return True
 
 alex_kid()
