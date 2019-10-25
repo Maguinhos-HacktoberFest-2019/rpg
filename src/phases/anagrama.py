@@ -129,3 +129,5 @@ def anagrama():
     elif pontos< 12:
         print("\nDesculpe, não foi desse vez. Você acertou ",pontos," pontos")
         return False
+
+
