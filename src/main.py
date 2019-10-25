@@ -3,6 +3,8 @@ from phases.start import start
 from phases.hangman import hangman
 from phases.dilema import dilema
 from phases.velha import velha
+from phases.labirinto import labirinto
+from phases.charada import charada
 from phases.enigma_hex import enigma_hex
 from phases.portas import postas
 from phases.curiosity import curiosidade
