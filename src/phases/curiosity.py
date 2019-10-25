@@ -21,4 +21,7 @@ def curiosidade():
         print('Parabéns, você detem conhecimento muito útil!')
     else:
         print('Bom, ao menos isso não cai em prova de concurso.')
+
+
+    return True
 #
