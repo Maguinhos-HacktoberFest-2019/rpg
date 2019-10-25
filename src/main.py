@@ -12,7 +12,7 @@ from phases.curiosity import curiosidade
 from phases.jogosequencia import jogosequencia
 >>>>>>> 2b23735613458984dfda3c9c32342eb1d070336a
 
-g_phases = [start, dilema, velha, hangman, curiosidade, jogosequencia, portas]
+g_phases = [start, dilema, velha, hangman, curiosidade, jogosequencia, portas, respiro]
 
 class Settings():
     hardcore = False
