@@ -42,7 +42,7 @@ Mas não se preocupa, dá pra melhorar!''')
 	#else:
 		#ALGUMA FORMA DE REINICIAR O JOGO
 		
-def main():
+def jogosequencia():
 
 	x = pergunta()
 	limpa()
@@ -90,4 +90,3 @@ Cada acerto somará 1 ponto, consegue atingir 10? ''')
 			return True	
 	return 0
 
-main()
