@@ -25,5 +25,6 @@ def anagrama():
     else:
         print("Resposta ERRADA !!!")
         return False
+print("top")
 
 anagrama()
