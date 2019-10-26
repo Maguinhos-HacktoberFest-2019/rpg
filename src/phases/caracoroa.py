@@ -19,7 +19,6 @@ def caraCoroa():
 	print("\nEscolha 0 se você quer CARA ou escolha 1 se você quer COROA...")
 	while (i < 10):
 		x = int(input("\nCara ou Coroa? "))
-		#adicionar um while
 		y = randint(0, 1)
 		
 		if (x == y):
@@ -30,25 +29,16 @@ def caraCoroa():
 		i+=1
 			
 	if (jogador > computador):
-		print("Pontuação", jogador)
+		print("Pontuação:", jogador)
 		print("\o/ \o/ \o/ PARABÉNS! VOCÊ GANHOU!!!!! \o/ \o/ \o/")
 		return True
 		
 	if (jogador == computador):
-		print("Pontuação", jogador)
+		print("Pontuação:", jogador)
 		print("Houve empate! =O")
 		return False
 		
 	else:
-		print("Pontuação", jogador)
+		print("Pontuação:", jogador)
 		print(")= Que pena, não foi dessa vez! =(")		
 		return False
-
-def main(args):
-	
-	caraCoroa()
-	return 0
-
-if __name__ == '__main__':
-	import sys
-	sys.exit(main(sys.argv))
