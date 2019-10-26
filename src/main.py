@@ -3,6 +3,8 @@ from phases.start import start
 from phases.hangman import hangman
 from phases.dilema import dilema
 from phases.velha import velha
+
+from phases.anagrama import anagrama
 from phases.aventura import aventura
 from phases.caracoroa import caraCoroa
 from phases.alexkid import alex_kid
@@ -14,7 +16,7 @@ from phases.respiro import respiro
 from phases.vocemorreu import morreu
 from phases.curiosity import curiosidade
 from phases.jogosequencia import jogosequencia
-g_phases = [start, dilema, velha, hangman, curiosidade, jogosequencia, postas, enigma_hex]
+g_phases = [start, dilema, velha, hangman, curiosidade, jogosequencia, postas, enigma_hex,anagrama]
 
 
 class Settings():

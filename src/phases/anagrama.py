@@ -130,4 +130,4 @@ def anagrama():
         print("\nDesculpe, não foi desse vez. Você acertou ",pontos," pontos")
         return False
 
-anagrama()
+
