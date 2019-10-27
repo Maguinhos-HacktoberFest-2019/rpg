@@ -16,8 +16,9 @@ from phases.vocemorreu import morreu
 from phases.curiosity import curiosidade
 from phases.jogosequencia import jogosequencia
 from phases.intruso import intruso
+from phases.escolhas import escolhas
 
-g_phases = [start, dilema, velha, hangman, curiosidade, jogosequencia, postas, enigma_hex,anagrama, intruso]
+g_phases = [start, dilema, velha, hangman, curiosidade, jogosequencia, postas, enigma_hex,anagrama, intruso, escolhas]
 
 
 
