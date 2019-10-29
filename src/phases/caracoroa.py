@@ -4,7 +4,7 @@
 import time
 from random import randint
 
-def caraCoroa():
+def caracoroa():
 	
 	print("Olá, jovem gafanhoto!")
 	time.sleep(1)
@@ -12,13 +12,16 @@ def caraCoroa():
 	time.sleep(2)
 	print("Agora nós vamos jogar Cara ou Coroa!")
 	time.sleep(2)
-	print("Você tem 10 chances... Preparado?")
+	print("Voce tem 20 chances... Preparado?")
 	time.sleep(2)
 	
 	x = 0; jogador = 0; computador = 0; i = 0
 	print("\nEscolha 0 se você quer CARA ou escolha 1 se você quer COROA...")
-	while (i < 10):
+	while (i < 20):
 		x = int(input("\nCara ou Coroa? "))
+		while (x!=1 and x!=0):
+			x = int(input("\nCara ou Coroa? "))
+			
 		y = randint(0, 1)
 		
 		if (x == y):
@@ -29,16 +32,16 @@ def caraCoroa():
 		i+=1
 			
 	if (jogador > computador):
-		print("Pontuação:", jogador)
-		print("\o/ \o/ \o/ PARABÉNS! VOCÊ GANHOU!!!!! \o/ \o/ \o/")
+		print("Pontuacao:", jogador)
+		print("\o/ \o/ \o/ PARABENS! VOCE GANHOU!!!!! \o/ \o/ \o/")
 		return True
 		
 	if (jogador == computador):
-		print("Pontuação:", jogador)
+		print("Pontuacao:", jogador)
 		print("Houve empate! =O")
 		return False
 		
 	else:
-		print("Pontuação:", jogador)
-		print(")= Que pena, não foi dessa vez! =(")		
+		print("Pontuacao:", jogador)
+		print(")= Que pena, nao foi dessa vez! =(")		
 		return False
