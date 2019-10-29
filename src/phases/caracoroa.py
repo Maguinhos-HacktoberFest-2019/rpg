@@ -4,7 +4,7 @@
 import time
 from random import randint
 
-def caraCoroa():
+def caracoroa():
 	
 	print("Olá, jovem gafanhoto!")
 	time.sleep(1)
